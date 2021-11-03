@@ -8,6 +8,8 @@ main(){
 class MyApp extends StatelessWidget {
 
   @override
+  //首先，最外层要有一个MaterialApp;
+  //然后，每个界面要用Scaffold包裹
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
